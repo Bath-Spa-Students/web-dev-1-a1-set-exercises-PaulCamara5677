@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.h1{
+    margin: 200px;
+    padding: 100px;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: initial;
+    font: century;
+}
+.paragraph{
+    margin: 40px;
+    padding: 40px;
+    font: sans-serif;
+}
+
+.paragraph{
+    margin: 40px;
+    padding: 40px;
+    font: sans-serif;
+}
