@@ -1,0 +1,42 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.background{
+    background-color: #ffaa00;
+}
+
+.header1{
+    margin-top: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: large;
+    font-style: normal;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.paragraph{
+    margin-top: 170%;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: medium;
+    font-style: normal;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.paragraph{
+    margin-top: 150%;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-weight: lighter;
+    font-size: medium;
+    font-style: normal;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.bottom{
+    margin-bottom: 200%;
+    margin-left: 70px;
+    margin-right: 70px;
+}
