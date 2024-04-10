@@ -1,0 +1,141 @@
+/*the content of the website*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial; /*the font of the header*/
+}
+
+/*header of the website*/
+header {
+    font-family: Tahoma; /*the font of the text*/
+    text-align: center; /*where the text is position*/
+    background-color: #17072b; /*bg colour of the header*/
+}
+
+/*styling the heading 1/title of the website*/
+header h1 {
+    font-size: 56px;
+    padding: 24px;
+    width: auto; /*adjust the width automatically*/
+    /*gap from the footer to the website elements*/
+    padding-bottom: 0;
+    /*text colour of the header*/
+    color: #FFFFFF; 
+    display: inline-block; /*will not take up all the full width*/
+    border-bottom: 5px solid; /*creates the bottom line for the heading*/
+}
+
+/*navigation*/
+header nav {
+    padding-bottom: 20px;
+}
+
+/*adjusting the header of the anchor link*/
+header a{
+    /*padding in all 4 of the side  */
+    padding: 24px;
+    /*size of the navigation text*/
+    font-size: 25px;
+    /*removes the underline from the navigation text*/
+    text-decoration: none;
+    /*text colour*/
+    color: #FFFFFF;
+}
+
+/*styling the navigational bar*/
+nav {
+    /*the inital space */
+    flex-basis: 30%;
+}
+
+a:hover {
+    /*when the cursor hover on the words
+    this colour will show*/
+    color: #8c15e9
+}
+
+#content {
+    display: flex;
+}
+
+#content div {
+    /*contains the 3 property flex: 
+    flex-grow, flex-shrink and flex-basis*/
+    flex: 1;
+}
+
+#intro {
+    padding: 0 0 20px 40px;
+}
+
+#intro h1 {
+    color: black; /*text colour*/
+    font-size: 36px; /*size of the header text*/
+    display: inline-block; /*sit inline with the text*/
+    margin-bottom: 0;
+    border-bottom: 5px solid; /*creates the bottom line for the heading*/
+}
+
+#intro p {
+    /*text colour*/
+    color: #000000;
+    /*the space the text will be occupying*/
+    width: 105%;
+    /*size of the paragraph text*/
+    font-size: 20px;
+}
+
+#intro img {
+    display: block;
+    object-fit: cover;
+}
+
+#bluebox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    /*colour of the box at the right*/
+    background-color: #172d67;
+    /*padding: top right:20 bottom left*/
+    padding: 0 20px 5px 0;
+}
+
+#bluebox h1 { /*heading 1 inside the bluebox*/
+    color: white; /*text colour*/
+    font-size: 36px; /*text size*/
+    /*only the heading 1 will be underlined*/
+    display: inline-block; /*will not take up all the full width*/
+    margin-left: 20px;
+    margin-bottom: 0;
+    border-bottom: 5px solid; /*creating the line under the header*/
+}
+
+/*styling the side*/
+#bluebox p {
+    color: white; /*colour of the text*/
+    font-size: 23px; /*size of the text*/
+    margin-left: 20px;
+}
+
+#picture {
+    margin-left: 20px;
+    display: flex; /*arranging the image horizontally*/
+}
+
+/*the 1st div image*/
+#picture div { /*image: components of a computer*/
+    /*adjust the image right margin*/
+    margin-right: 11px;
+}
+
+footer {
+    bottom: 0; /*place at the bottom edge of the website*/
+    background-color: #8c15e9; /*bg colour of the footer*/
+    text-align: center; /*position of the text*/
+    padding: 5px; /*gap from the text to the border*/
+    font-size: 30px; /*size of the text*/
+    position: fixed; /*the position is on place/can't move*/
+    width:100%; /*the width of the footer*/
+    height: 20px; /*height of the footer*/
+    color: #FFFFFF; /*text colour of the footer*/
+}
