@@ -7,8 +7,8 @@ header {
   width: 100%;
 }
 
-main { /*main content of the website*/
-  margin-top: -3%;
+main { /*to preview the top part of the main content of the website*/
+  margin-top: 3%;
 }
 
 header h1 {
@@ -28,19 +28,19 @@ header img {
 }
 
 ul {
-  list-style: none; /*removes the dot infront of the listed item*/
+  list-style: none; /*removes the dot infront of the listed items by using unordered list*/
   padding: 0;
   margin: 0;
 }
 
 li {
-  font-family: 'Roboto', sans-serif; /*font of the number on the calendar*/
+  font-family: 'Roboto', sans-serif; /*font used for the numbers on the calendar*/
   display: inline;
   padding-top: 12;
 }
   
 a {
-  text-decoration: none; /*remove the dot infront of the listed item*/
+  text-decoration: none; /*remove the dots infront of the listed item*/
 }
   
 .right {
