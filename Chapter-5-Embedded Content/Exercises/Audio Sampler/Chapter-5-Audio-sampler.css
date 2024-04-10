@@ -1,0 +1,40 @@
+body {
+    margin: 10%; /*margin is 10% from all 4 sides*/   
+    background-image: url(img/a.jpeg); /*background image*/
+    background-repeat: no-repeat; /*image will not repeat*/
+    background-size: cover; /*background image will cover the entire website */
+}
+
+h1 {
+    text-align: center; /*text position on the center of the website*/
+    color: rgb(255, 255, 255); /*colour of the text*/
+    font-size: 40px; /*size of the font*/
+    text-shadow: 1px 1px 5px rgb(0, 0, 0); /*shadow of the text*/
+    
+
+}
+
+.sounds {
+    display: grid; /*the display is a grid*/
+    grid-template-columns: repeat(4,1fr); /*there is 4 column, taking up the available space */
+    gap: 15px; /*gap of the button from each other, the column and the row*/
+    justify-content: center; /*button positioned on the center*/
+}
+
+.mp3 {
+    background-color: rgb(244, 0, 0); /*colour of the button*/
+    box-shadow: 0 0 15px white; /*shadow of the button*/
+    color: rgb(255, 255, 255); /*text colour of the button*/
+    font-size: 20px; /*text size of the button*/
+    border-radius: 5px; /*the corner of the button*/
+    margin: 20px; /*distance of the button from each other, all 4 sides*/
+    padding:40px; /*gap of the text from the button itself */
+    text-align: center; /*the position of the text on the button*/
+    width: 50%; /*size of the button*/
+}
+
+.mp3:hover { /*the button when being hover*/
+    background-color: rgb(20, 93, 32); 
+    transform: scale(1.1);
+    transition: .5s;
+}
