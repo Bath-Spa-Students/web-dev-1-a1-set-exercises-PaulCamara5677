@@ -1,0 +1,83 @@
+/* CSS styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(img/a.jpeg);
+    background-size: cover;
+    max-width: max-content;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.calcu {
+    width: 100%;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 8px; /*the rounded corner of the border*/
+    border: 1px solid black;
+    background-color: rgba(42, 196, 101, 0.5);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+/*label for the gas and km*/
+label {
+    margin-top: 10px; /*from the border to the border of the input box*/
+    font-size: 26px;
+    color: white;
+}
+
+/*the inputted number*/
+input {
+    width: 90%;
+    border-radius: 4px; /*corner of border*/
+    background-color:(gray,0.5); 
+    font-size: 26px;
+    color: #000000;
+}
+
+button {
+    margin-left: 10%;
+    margin-top: 3%;
+    width: 80%;
+    padding: 10px;
+    background-color: #149c34;
+    color: #fff; /*colour of the text*/
+    border: none; /*removes the border from the button*/
+    border-radius: 9px; /*the corner of the button*/
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #ffffff; /*the colour of the button when the button will be hover*/
+    color: #28aa0e;
+    border:solid 1px #000000;
+}
+
+.number div {
+    background-color: rgba(225, 14, 14, 0.8);
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 5px;
+  }
+
+.number{
+  display: grid;
+  /*there is 2 row and column*/
+  grid-template-columns: auto auto;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+#cost {
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    padding: 10px;
+    margin-top: 2%;
+}
