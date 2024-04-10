@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(255, 255, 255); /*colour of the background*/
+    display: flex; /*layouts the content*/
+    justify-content: center; /*the content will be on the center*/
+    font-family: 'Sans-serif'; /*the font of the entire website*/
+}
+
+h1 {
+    color: rgb(13, 25, 15); /*text colour*/
+    text-shadow: 0 2px 3px rgb(255, 255, 255); /*colour of the shadow*/
+    font-size: 95px; /*size of the font*/
+    padding-left: 55px;
+}
+
+.video video{
+    box-shadow: 0 2px 7px rgb(20, 112, 51); /*the shadow of the video*/
+    padding: 10px;
+    width: 900px;
+    height: 400px;
+    transform: translate(20%,35%); /*positioning it on the website*/
+}
+
+.left { /*the left side of the website */
+    background-color:rgb(13, 116, 41);
+}
+
+.left img { /*positioning the image on the left side*/
+    transform: translate(-8%,-10%);
+}
+
+.side {
+    height: 100%; /*the height of the left side */
+    width: 25%; /*the width of the side*/
+    z-index: 1; /*puts on top of an element*/
+    top: 0; /*position at the top of the website*/
+    left: 0; /*position at the left of the website*/
+    position: fixed; /*it would not move from its position*/
+    padding-top: 20px; /*the space between content and the side*/
+}
+
+footer p {
+    bottom: 0; /*put the text on the bottom*/
+    position: fixed; /*it would not move from its position*/
+    width: 100%; /*lays out the text */
+    transform: translate(-30%); /*positioning it on the x-axis*/
+    font-size: 20px; /*font size*/
+}
