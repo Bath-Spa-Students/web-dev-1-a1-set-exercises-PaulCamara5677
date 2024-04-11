@@ -6,6 +6,8 @@ var button=document.querySelector("#reset");
 var easy=document.querySelector("#easy");
 var hard=document.querySelector("#hard");
 
+//function will allow user or player to choose the difficulty of the game by provoding more boxes to choose from //
+
 easy.addEventListener("click",function(){
 	hard.classList.remove("button");
 	easy.classList.add("button");
@@ -28,6 +30,7 @@ easy.addEventListener("click",function(){
 
 hard.addEventListener("click",function(){
 	easy.classList.remove("button");
+    // adds three more boxes to increase the difficulty //
 	hard.classList.add("button");
 	number=6;
 	colors =generateRandomColor(number);
@@ -96,10 +99,13 @@ hard.addEventListener("click",function(){
          var arr=[];
          for (var i=0;i<num;i++)
          {
+            //when player choose the correct color, the proram will push the result and will duplicate for other boxes//
          	arr.push(color());
          }
          return arr;
       }  
+
+            //will generate multiiple random colors to mimic similar or clear different from what rgb is mentioned//
 
       function color()
       {
