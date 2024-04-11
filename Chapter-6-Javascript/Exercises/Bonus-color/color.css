@@ -6,7 +6,7 @@ body {
     background-size: cover;
   }
   
-  /* Style the header */
+  /* Text style the header */
   .header {
     font-size: 25px;
     background-color: rgb(0, 0, 0,0.5);
@@ -16,7 +16,7 @@ body {
   }
   
 
-  /* Create three equal columns that floats next to each other */
+  /* Create three equal columns that floats beside each other */
   .column {
     float: left;
     width: 30%;
@@ -40,14 +40,14 @@ body {
     margin-bottom: 20px;
 }
 
-/*the box colour*/
+/*the box color*/
 #color-palette {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-/*the box or the outline for the box colour*/
+/*the box or the outline for the box color*/
 .color-box {
     width: 60px;
     height: 60px;
