@@ -9,7 +9,7 @@ var mp3 = document.getElementsByClassName('mp3');
 
 function play(audioSrc) {
   const audio = new Audio(audioSrc);
-  audio.playbackRate = 1.0; // Set the playback rate
+  audio.playbackRate = 1.0; // Set the playback rate //
   audio.play();
 }  
 
